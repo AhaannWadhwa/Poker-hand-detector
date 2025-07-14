@@ -1,45 +1,73 @@
 # Poker-hand-detector
 
 
-Real-Time Poker Hand Detection System using YOLOv8 and OpenCV
-This repository contains a complete real-time poker hand detection system powered by a custom-trained YOLOv8 object detection model and OpenCV for image processing.
+🃏 Real-Time Poker Hand Detection Using YOLOv8 & OpenCV
 
-The system utilizes live webcam input to detect multiple playing cards simultaneously and evaluates the best possible poker hand from the visible cards. It is optimized for educational, research, and interactive AI demonstration purposes, and offers a clear foundation for further development into smart gaming interfaces or card recognition tools.
+This project is a real-time card recognition and poker hand evaluation system built with a custom-trained YOLOv8 model and OpenCV. It captures live video from your webcam, detects multiple cards in a single frame, and intelligently determines your best poker hand from the visible cards.
 
-Key Features
-Real-Time Detection: Uses webcam input to identify playing cards on the fly.
+🚀 Features
+~ Detects multiple playing cards simultaneously using YOLOv8
+~ Live webcam feed with card overlays and poker hand classification
+~ Custom-trained model on a 52-card poker deck
+~ Displays hand type: Pair, Two Pair, Full House, Flush, etc.
+~ Easily adjustable detection confidence threshold
 
-Custom YOLOv8 Model: Trained on a curated dataset of standard 52-card poker images.
+🛠️ Technologies Used
+~ Python 3
+~ OpenCV (cv2)
+~ Ultralytics YOLOv8
 
-Hand Evaluation Engine: Interprets detected cards to determine current hand (e.g. Pair, Full House, Flush).
+📦 Installation
 
-Modular and Readable Code: Built for clarity, ease of debugging, and extension.
+First, clone the repository:
 
-Configurable Parameters: Adjustable detection confidence threshold for tuning accuracy.
+git clone https://github.com/yourusername/poker-hand-detector.git
+cd poker-hand-detector
 
-Tech Stack
-Python 3
+Install the required Python libraries:
 
-YOLOv8 (via Ultralytics)
+pip install ultralytics opencv-python
 
-OpenCV for live video capture and annotation
+🎮 Running the App
 
-Custom annotated dataset for card recognition
+To start real-time card detection and hand evaluation, run:
 
-Project Status
-Dataset Preparation: Completed
+python running_model.py
 
-Model Training and Evaluation: Completed
+Make sure your webcam is connected and functional.
 
-Real-Time Inference and Hand Detection: Completed
+🧠 Model Details
 
-Upcoming: Optional GUI, multiplayer support, or deployment via web or app interface
+~ YOLOv8 trained on custom dataset of individual poker cards
+~ Format: label = “RankSuit” (e.g., KH = King of Hearts)
+~ Model output is used to determine best visible poker hand
 
-Use Cases
-AI-powered casino tools
+📋 Example Detected Cards
 
-Smart poker table integrations
+~ AH (Ace of Hearts)
+~ 10S (Ten of Spades)
+~ JD (Jack of Diamonds)
+~ 7C (Seven of Clubs)
 
-Educational demonstrations in computer vision
+And many more — the full 52-card set is supported.
 
-Real-time object detection experiments
+🧼 Cleanup
+~ Press the 'q' key during detection to stop the webcam and close the application safely.
+
+📌 To-Do / Ideas for Expansion
+~ Detect overlapping or partially visible cards
+~ Train model on real-life card images for improved accuracy
+~ Add web-based GUI for easier interaction
+~ Support for gesture-based control or voice commands
+
+📜 License
+~ This project is open source under the MIT License.
+
+🙌 Acknowledgements
+~ Ultralytics YOLOv8
+~ OpenCV
+~ Dataset preparation by project team
+~ Developed with care and sleepless nights
+
+Created with ❤️ by Ahaann
+
