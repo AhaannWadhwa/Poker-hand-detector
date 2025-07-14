@@ -1,12 +1,12 @@
 # Poker-hand-detector
 
-# 🧠 Real-Time Object Detection Using YOLOv8
 
-#🃏 Real-Time Poker Hand Detection Using YOLOv8 & OpenCV
 
-This project is a real-time card recognition and poker hand evaluation system built with a custom-trained YOLOv8 model and OpenCV. It captures live video from your webcam, detects multiple cards in a single frame, and intelligently determines your best poker hand from the visible cards.
+# 🃏 Real-Time Poker Hand Detection Using YOLOv8 & OpenCV
 
-#🚀 Features 
+This project is a *real-time card recognition* and *poker hand evaluation system* built with a custom-trained *YOLOv8 model* and *OpenCV*. It captures live video from your webcam, detects multiple cards in a single frame, and intelligently determines your best poker hand from the visible cards.
+
+# 🚀 Features 
 
 ~ Detects multiple playing cards simultaneously using YOLOv8 
 
@@ -19,7 +19,7 @@ This project is a real-time card recognition and poker hand evaluation system bu
 ~ Easily adjustable detection confidence threshold 
 
 
-#🛠️ Technologies Used 
+# 🛠️ Technologies Used 
 
 ~ Python 3  
 
@@ -27,7 +27,7 @@ This project is a real-time card recognition and poker hand evaluation system bu
 
 ~ Ultralytics YOLOv8 
 
-#📦 Installation 
+# 📦 Installation 
 
 First, clone the repository:
 
@@ -46,7 +46,7 @@ python running_model.py
 
 Make sure your webcam is connected and functional.
 
-#🧠 Model Details 
+# 🧠 Model Details 
 
 ~ YOLOv8 trained on custom dataset of individual poker cards 
 
@@ -54,7 +54,7 @@ Make sure your webcam is connected and functional.
 
 ~ Model output is used to determine best visible poker hand 
 
-#📋 Example Detected Cards 
+# 📋 Example Detected Cards 
 
 ~ AH (Ace of Hearts) 
 
@@ -66,11 +66,11 @@ Make sure your webcam is connected and functional.
 
 And many more — the full 52-card set is supported.
 
-#🧼 Cleanup
+# 🧼 Cleanup
 
 ~ Press the 'q' key during detection to stop the webcam and close the application safely.
 
-#📌 To-Do / Ideas for Expansion
+# 📌 To-Do / Ideas for Expansion
 
 ~ Detect overlapping or partially visible cards
 
@@ -80,10 +80,10 @@ And many more — the full 52-card set is supported.
 
 ~ Support for gesture-based control or voice commands
 
-📜 License
+# 📜 License
 ~ This project is open source under the MIT License.
 
-🙌 Acknowledgements
+# 🙌 Acknowledgements
 
 ~ Ultralytics YOLOv8
 
