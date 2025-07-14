@@ -1,5 +1,6 @@
 # Poker-hand-detector
 
+# 🧠 Real-Time Object Detection Using YOLOv8
 
 #🃏 Real-Time Poker Hand Detection Using YOLOv8 & OpenCV
 
