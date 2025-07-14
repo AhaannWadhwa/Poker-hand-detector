@@ -1,6 +1,5 @@
 # Poker-hand-detector
-ChatGPT said:
-Absolutely! Here's your cleaned-up and fully professional version of the repository description and sections — formatted in Markdown for direct use in your README.md file:
+
 
 Real-Time Poker Hand Detection System using YOLOv8 and OpenCV
 This repository contains a complete real-time poker hand detection system powered by a custom-trained YOLOv8 object detection model and OpenCV for image processing.
